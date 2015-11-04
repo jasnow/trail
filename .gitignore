@@ -15,3 +15,7 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore rvm config.
+.rvmrc
+.overcommit.yml
