@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.1.0'
+gem 'rails', '5.1.1'
 gem 'rails-controller-testing'
-gem 'minitest', '5.10.1' # 5/11/2017: ADDED TO STOP UPGRADE.
 
 gem 'sqlite3'
 gem 'sass-rails'
