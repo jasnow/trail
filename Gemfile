@@ -10,7 +10,7 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
-gem 'sdoc', '1.0.0.rc3', group: :doc # LOCKED DOWN
+gem 'sdoc', group: :doc
 gem 'paper_trail'
 
 group :development, :test do
