@@ -4,7 +4,7 @@ gem 'rails', '5.2.0.rc2'
 gem 'rails-controller-testing'
 
 gem 'sqlite3'
-gem 'sass-rails'
+gem 'sassc-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'jquery-rails'
