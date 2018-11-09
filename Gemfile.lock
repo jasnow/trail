@@ -126,7 +126,7 @@ GEM
     rdoc (6.0.4)
     request_store (1.4.1)
       rack (>= 1.4)
-    sass (3.7.1)
+    sass (3.7.2)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
@@ -188,4 +188,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.17.1
+   2.0.0.pre.1
