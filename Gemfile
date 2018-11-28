@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.2.1'
+gem 'rails', '5.2.1.1'
 gem 'rails-controller-testing'
 
 gem 'sqlite3'
@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', group: :doc
 gem 'paper_trail'
+gem 'paper_trail-association_tracking'
 
 group :development, :test do
   gem 'byebug'
