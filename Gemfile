@@ -6,10 +6,10 @@ gem 'rails-controller-testing'
 gem 'sqlite3'
 gem 'sass-rails'
 gem 'uglifier'
-gem 'coffee-rails'
+gem 'coffee-rails', git: 'https://github.com/rails/coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'jbuilder'
+gem 'jbuilder', git: 'https://github.com/rails/jbuilder'
 gem 'sdoc', group: :doc
 gem 'paper_trail'
 gem 'paper_trail-association_tracking'
@@ -22,3 +22,4 @@ group :development do
   gem 'web-console'
   gem 'spring'
 end
+
