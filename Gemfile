@@ -15,6 +15,7 @@ gem 'paper_trail-association_tracking'
 
 group :development, :test do
   gem 'byebug'
+  gem 'brakeman'
 end
 
 group :development do
