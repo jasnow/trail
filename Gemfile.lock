@@ -94,7 +94,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    paper_trail (11.0.0)
+    paper_trail (11.1.0)
       activerecord (>= 5.2)
       request_store (~> 1.1)
     paper_trail-association_tracking (2.1.1)
@@ -159,7 +159,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (2.0.3)
+    tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -194,4 +194,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.2.1
+   2.2.2
