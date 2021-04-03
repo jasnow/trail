@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'sdoc', group: :doc
-gem 'paper_trail'
+gem 'paper_trail', '11.1.0' # 4/3/2021: LOCKED DOWN
 gem 'paper_trail-association_tracking'
 
 group :development, :test do
