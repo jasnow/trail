@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.1.5.1'
+gem 'rails', '6.1.6'
 gem 'rails-controller-testing'
+gem 'net-smtp'
 
 gem 'sqlite3'
 gem 'sassc-rails'
