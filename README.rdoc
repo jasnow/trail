@@ -11,4 +11,4 @@ rails g scaffold article title:string
 
 add history action and the view
 
-For more : http://geekhmer.github.io/blog/2015/03/03/versioning-with-papertrail-on-rails/
+For more : http://geekhmer.github.io/blog/2015/03/03/versioning-with-papertrail-on-rails
