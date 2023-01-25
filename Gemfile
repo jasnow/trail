@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "6.1.7.1"
+gem "rails", "6.1.7.2"
 gem "rails-controller-testing"
 gem "net-smtp"
 
