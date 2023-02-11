@@ -17,7 +17,6 @@ gem "paper_trail-association_tracking"
 group :development, :test do
   gem "byebug"
   gem "brakeman"
-  gem "standard"
   gem "ruby_audit"
   gem "spektr"
 end
