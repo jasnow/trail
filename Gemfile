@@ -5,7 +5,7 @@ gem "rails-controller-testing"
 gem "net-smtp"
 
 gem "sqlite3"
-gem "sassc-rails"
+gem "dartsass-rails"
 gem "terser"
 gem "jquery-rails"
 gem "turbolinks"
