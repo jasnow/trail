@@ -26,6 +26,9 @@ jobs:
         run: bin/rails db:schema:load
 
       - name:
+        run: bundle exec rails dartsass:build
+
+      - name:
         run: bin/rake
 
   lint:
