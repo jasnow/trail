@@ -102,6 +102,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+    mini_portile2 (2.8.2)
     minitest (5.18.0)
     net-imap (0.3.4)
       date
@@ -113,9 +114,8 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.15.0-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.15.0-x86_64-linux)
+    nokogiri (1.15.0)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     paper_trail (11.1.0)
       activerecord (>= 5.2)
@@ -203,9 +203,9 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.2-x86_64-darwin)
-    sqlite3 (1.6.2-x86_64-linux)
-    stringio (3.0.6)
+    sqlite3 (1.6.3)
+      mini_portile2 (~> 2.8.0)
+    stringio (3.0.7)
     strings (0.2.1)
       strings-ansi (~> 0.2)
       unicode-display_width (>= 1.5, < 3.0)
@@ -270,4 +270,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.4.12
+   2.5.0.dev

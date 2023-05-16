@@ -1,1 +1,1 @@
-rvm use 3.2.2@ruby3.2-rails6.1 --create
+rvm use 3.3.0-preview1@ruby3.3-rails6.1 --create
