@@ -5,6 +5,7 @@ gem "rails-controller-testing"
 gem "net-smtp"
 
 gem "sqlite3"
+gem 'sassc'
 gem "dartsass-rails"
 gem "terser"
 gem "jquery-rails"
