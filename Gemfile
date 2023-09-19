@@ -4,6 +4,11 @@ gem "rails", "6.1.7.6"
 gem "rails-controller-testing"
 gem "net-smtp"
 
+gem "base64"
+gem "bigdecimal"
+gem "drb"
+gem "mutex_m"
+
 gem "sqlite3"
 gem 'sassc'
 gem "dartsass-rails"
