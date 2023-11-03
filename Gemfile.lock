@@ -84,7 +84,7 @@ GEM
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (3.24.4)
+    google-protobuf (3.25.0)
     haml (6.2.3)
       temple (>= 0.8.2)
       thor
@@ -112,7 +112,7 @@ GEM
     mini_portile2 (2.8.5)
     minitest (5.20.0)
     mutex_m (0.1.2)
-    net-imap (0.4.3)
+    net-imap (0.4.4)
       date
       net-protocol
     net-pop (0.1.2)
@@ -224,7 +224,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.7)
+    sqlite3 (1.6.8)
       mini_portile2 (~> 2.8.0)
     stringio (3.0.9)
     strings (0.2.1)
