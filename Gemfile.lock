@@ -174,7 +174,7 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0)
     rake (13.1.0)
-    rdoc (6.6.1)
+    rdoc (6.6.2)
       psych (>= 4.0.0)
     request_store (1.5.1)
       rack (>= 1.4)
@@ -309,4 +309,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.0.dev
+   2.5.1
