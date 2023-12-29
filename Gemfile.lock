@@ -123,8 +123,14 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.7.0)
-    nokogiri (1.15.5)
+    nokogiri (1.16.0)
       mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.16.0-arm-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
     paper_trail (11.1.0)
       activerecord (>= 5.2)
@@ -184,21 +190,17 @@ GEM
       bundler-audit (~> 0.7.0)
     ruby_parser (3.20.3)
       sexp_processor (~> 4.16)
-    sass-embedded (1.69.5)
-      google-protobuf (~> 3.23)
+    sass-embedded (1.69.6)
+      google-protobuf (~> 3.25)
       rake (>= 13.0.0)
-    sass-embedded (1.69.5-aarch64-linux-android)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-arm-linux-androideabi)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-x86-linux-android)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-x86_64-darwin)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-x86_64-linux-android)
-      google-protobuf (~> 3.23)
-    sass-embedded (1.69.5-x86_64-linux-gnu)
-      google-protobuf (~> 3.23)
+    sass-embedded (1.69.6-arm-linux-gnueabihf)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.69.6-arm-linux-musleabihf)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.69.6-x86_64-darwin)
+      google-protobuf (~> 3.25)
+    sass-embedded (1.69.6-x86_64-linux-gnu)
+      google-protobuf (~> 3.25)
     sassc (2.4.0)
       ffi (~> 1.9)
     sdoc (2.6.1)
@@ -233,8 +235,11 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.9)
+    sqlite3 (1.7.0)
       mini_portile2 (~> 2.8.0)
+    sqlite3 (1.7.0-arm-linux)
+    sqlite3 (1.7.0-x86_64-darwin)
+    sqlite3 (1.7.0-x86_64-linux)
     stringio (3.1.0)
     strings (0.2.1)
       strings-ansi (~> 0.2)
@@ -275,13 +280,12 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
-  aarch64-linux-android
-  arm-linux-androideabi
+  arm-linux
+  arm-linux-gnueabihf
+  arm-linux-musleabihf
   ruby
-  x86-linux-android
   x86_64-darwin-16
   x86_64-linux
-  x86_64-linux-android
 
 DEPENDENCIES
   base64
