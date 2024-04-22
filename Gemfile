@@ -9,7 +9,7 @@ gem "bigdecimal"
 gem "drb"
 gem "mutex_m"
 
-gem "sqlite3"
+gem "sqlite3", "~> 1.4"
 gem 'sassc'
 gem "dartsass-rails"
 gem "terser"
