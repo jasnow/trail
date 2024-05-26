@@ -84,17 +84,8 @@ GEM
     ffi (1.16.3)
     globalid (1.2.1)
       activesupport (>= 6.1)
-    google-protobuf (4.26.1)
-      rake (>= 13)
-    google-protobuf (4.26.1-aarch64-linux)
-      rake (>= 13)
-    google-protobuf (4.26.1-arm64-darwin)
-      rake (>= 13)
-    google-protobuf (4.26.1-x86-linux)
-      rake (>= 13)
-    google-protobuf (4.26.1-x86_64-darwin)
-      rake (>= 13)
-    google-protobuf (4.26.1-x86_64-linux)
+    google-protobuf (4.27.0)
+      bigdecimal
       rake (>= 13)
     haml (6.3.0)
       temple (>= 0.8.2)
@@ -121,7 +112,7 @@ GEM
     method_source (1.1.0)
     mini_mime (1.1.5)
     mini_portile2 (2.8.6)
-    minitest (5.23.0)
+    minitest (5.23.1)
     mutex_m (0.2.0)
     net-imap (0.4.11)
       date
@@ -131,22 +122,9 @@ GEM
     net-protocol (0.2.2)
       timeout
     net-smtp (0.5.0)
-      net-protocol
     nio4r (2.7.3)
     nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
-    nokogiri (1.16.5-aarch64-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.5-arm-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.5-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.5-x86-linux)
-      racc (~> 1.4)
-    nokogiri (1.16.5-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
     paper_trail (11.1.0)
       activerecord (>= 5.2)
@@ -197,11 +175,11 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0)
     rake (13.2.1)
-    rdoc (6.6.3.1)
+    rdoc (6.7.0)
       psych (>= 4.0.0)
     request_store (1.7.0)
       rack (>= 1.4)
-    ruby_audit (2.3.0)
+    ruby_audit (2.3.1)
       bundler-audit (~> 0.9.0)
     ruby_parser (3.21.0)
       racc (~> 1.5)
@@ -209,25 +187,31 @@ GEM
     sass-embedded (1.77.2)
       google-protobuf (>= 3.25, < 5.0)
       rake (>= 13.0.0)
-    sass-embedded (1.77.2-aarch64-linux-gnu)
+    sass-embedded (1.77.2-aarch64-linux-android)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-aarch64-linux-musl)
+    sass-embedded (1.77.2-aarch64-mingw-ucrt)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm-linux-gnueabihf)
+    sass-embedded (1.77.2-arm-linux-androideabi)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm-linux-musleabihf)
+    sass-embedded (1.77.2-riscv64-linux-android)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-arm64-darwin)
+    sass-embedded (1.77.2-riscv64-linux-gnu)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-linux-gnu)
+    sass-embedded (1.77.2-riscv64-linux-musl)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86-linux-musl)
+    sass-embedded (1.77.2-x86-cygwin)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.2-x86-linux-android)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.2-x86-mingw-ucrt)
+      google-protobuf (>= 3.25, < 5.0)
+    sass-embedded (1.77.2-x86_64-cygwin)
       google-protobuf (>= 3.25, < 5.0)
     sass-embedded (1.77.2-x86_64-darwin)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86_64-linux-gnu)
+    sass-embedded (1.77.2-x86_64-linux-android)
       google-protobuf (>= 3.25, < 5.0)
-    sass-embedded (1.77.2-x86_64-linux-musl)
+    sass-embedded (1.77.2-x86_64-linux-gnu)
       google-protobuf (>= 3.25, < 5.0)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -265,13 +249,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.7.3)
       mini_portile2 (~> 2.8.0)
-    sqlite3 (1.7.3-aarch64-linux)
-    sqlite3 (1.7.3-arm-linux)
-    sqlite3 (1.7.3-arm64-darwin)
-    sqlite3 (1.7.3-x86-linux)
-    sqlite3 (1.7.3-x86_64-darwin)
-    sqlite3 (1.7.3-x86_64-linux)
-    stringio (3.1.0)
+    stringio (3.1.1)
     strings (0.2.1)
       strings-ansi (~> 0.2)
       unicode-display_width (>= 1.5, < 3.0)
@@ -308,25 +286,23 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.14)
+    zeitwerk (2.6.15)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux
-  arm-linux-gnueabihf
-  arm-linux-musleabihf
-  arm64-darwin
+  aarch64-linux-android
+  aarch64-mingw-ucrt
+  arm-linux-androideabi
+  riscv64-linux-android
+  riscv64-linux-gnu
+  riscv64-linux-musl
   ruby
-  x86-linux
-  x86-linux-gnu
-  x86-linux-musl
-  x86_64-darwin
+  x86-cygwin
+  x86-linux-android
+  x86-mingw-ucrt
+  x86_64-cygwin
   x86_64-darwin-16
   x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
+  x86_64-linux-android
 
 DEPENDENCIES
   base64
@@ -355,4 +331,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.10
+   2.6.0.dev
