@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "rails", "6.1.7.7"
 gem "rails-controller-testing"
 gem "net-smtp"
+gem "ostruct"
 
 gem "base64"
 gem "bigdecimal"
