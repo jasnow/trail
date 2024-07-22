@@ -2,8 +2,8 @@ source "https://rubygems.org"
 
 gem "rails", "6.1.7.8"
 gem "rails-controller-testing"
-gem "net-smtp"
 gem "ostruct"
+gem "net-pop"
 
 gem "base64"
 gem "bigdecimal"
